@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav class="nav">
+            <h2>Project Gallery</h2>
+            <a href="index.html">Home</a>
+            <a href="photo.html">Photo</a>
+            <a href="form.html">Form</a>
+        </nav>
+
+        <div class="container">
+            <form>
+                <input type="text" placeholder="Name" id="name" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="number" placeholder="Contact" id="contact" required>
+                <button onsubmit="runEvent()">Submit</button>
+            </form>
+        </div>
+        <div class="outer">
+            <ul class="list-group">
+                <li class="list-group-item" id="out" style="display:none;">
+                    <button class="btn" onclick="deleteTask()">Delete</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>

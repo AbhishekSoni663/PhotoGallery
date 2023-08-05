@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./img/marek-piwnicki-ObboIk5yoFw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+   height: 120%;
+}
+.nav {
+    /* background-color: blue; */
+    /* width: 100%; */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgba( 255, 255, 255, 0.2 ); */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border: 1px solid rgba(255, 82, 82, 0.18);
+    box-shadow: 5px 5px 5px #f0eab240,
+        -5px -5px 5px #e1e0db7e;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 100;
+    color: rgba(197, 62, 62, 0.37);
+    font-family: 'Golos Text', sans-serif;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    /* background-color: black; */
+}
+.container{
+    display: flex;
+   height: 90vh;
+}
+
+.box {
+    width: 350px;
+    height:85%;
+    border-radius: 20px;
+    /* background-color: aqua; */
+    background-image: url(https://source.unsplash.com/random/900×700/?nature);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.boxes button{
+margin-top: 5px;
+border: none;
+width: 170px;
+box-shadow: rgba(0, 0, 0, 0.275) 0px 2px 8px;
+border-radius: 10px;
+background: none;
+padding:13px 0;
+}
+.nav h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: rgba(169, 56, 56, 0.37);
+    font-weight: 400;
+    font-size: 27px;
+}
+.boxtxt{
+    margin-bottom: 15px;
+    width: 100%;
+    color: black;
+    /* background-color: aliceblue; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boxtxt h1{
+    font-size: 18px;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.boxtxt p{
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}

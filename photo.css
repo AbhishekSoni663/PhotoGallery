@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
+}
+.main{
+    background-image: url(./img/marek-piwnicki-ObboIk5yoFw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+   height: 120%;
+}
+.container{
+    min-height:90vh;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.boxes{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.box{
+    width:350px;
+    height:350px;
+    margin:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size:contain;
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    transition: all 0.2sec ease-in-out;
+}
+.box:hover{
+    background-image: url("https://source.unsplash.com/random/900×700/?home");
+    width:300px;
+    height:300px;
+    transition: all 0.1sec ease-in-out;
+}
+button{
+    width: 150px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.275) 0px 2px 8px;
+    border-radius: 10px;
+    background: none;
+}
+nav {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgba( 255, 255, 255, 0.2 ); */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border: 1px solid rgba(255, 82, 82, 0.18);
+    box-shadow: 5px 5px 5px #f0eab240,
+        -5px -5px 5px #e1e0db7e;
+}
+nav a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 100;
+    color: rgba(197, 62, 62, 0.37);
+    font-family: 'Golos Text', sans-serif;
+}
+nav h1{
+    font-size:35px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Charm', cursive;
+}
+@media (max-width:450px){
+    .nav{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
